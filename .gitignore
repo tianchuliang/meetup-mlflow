@@ -1,1 +1,4 @@
 ./mlruns
+server/mlruns/*
+server/artifacts/*
+
