@@ -45,7 +45,7 @@ if __name__ == "__main__":
 
     # Log metrics and log the model
     try:
-        with mlflow.start_run():
+        with mlflow.start_run(run_name="demo_keras"):
             main()         
     except:
         mlflow.end_run()

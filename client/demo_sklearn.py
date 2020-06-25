@@ -20,7 +20,7 @@ def main():
 
 if __name__ == "__main__":
     try:
-        with mlflow.start_run():
+        with mlflow.start_run(run_name="demo_sklearn"):
             main()
     except:
         mlflow.end_run()
